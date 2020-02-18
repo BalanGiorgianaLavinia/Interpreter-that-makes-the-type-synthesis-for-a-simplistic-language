@@ -1,0 +1,21 @@
+class Int
+class Double
+class Float
+class String
+class Void
+class A
+class B
+
+Double Global::f1 (Double,Double)
+Int Global::f2 (  Double,   String)
+String Global::f3 ()
+String Global::f3 (String , String,String,     Double ,Double)
+Double Global::f4 f4 (Int,Size)
+Double A::aF1 (Int,Int)
+Double B::bF1 (     Int,Int)
+String A::aF2 (String)
+String C::cF1 (Void)
+String C::cF2 (String,Void,Void)
+String C::cF3 (String, Int, Int)
+Void B::bF2 (Int,Int)
+Void A::aF3 (Void,NewType) 

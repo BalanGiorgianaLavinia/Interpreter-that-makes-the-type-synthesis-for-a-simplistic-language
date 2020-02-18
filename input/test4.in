@@ -1,0 +1,45 @@
+class Double
+class Int
+class String
+class Char
+class Void
+class Float
+class Boo
+class Foo
+
+newvar var1 = Double
+newvar var2    = String
+newvar var3  =   String
+newvar prod = Void
+newvar cool=Boo
+newvar coco = Fold
+newvar sum =String
+
+class Human 
+class Professor extends Human
+class Student extends Human
+
+class A extends Human
+class Professor    extends  Human
+class Teacher extends NonExistent
+
+Int Global::apply (Int,Double,Double)
+Int Clasa::apply (Double,Double)
+String Global::print ()
+Double Professor::apply (Int,String)
+Void Student::apply  (Maybe)
+Int Global :: add (Int,Int)
+List Profesor::rotate (Int,List)
+Int Student::count (List)
+Double Global::diff (Double, Double)
+String Professor::teach (String)
+Double Professor::teach (Int)
+Int Professor::teach ()
+Int Human :: apply Int (Double, TODO)
+Int Global::increment (Int)
+FooBar Global::nop (Int)
+TODO Professor::biss (Void)
+TODO Student::hello (Void)
+Int Student::homework(Double,Double)
+Double Student::homework(Int,Int)
+Double Student::homework(Int,Int,Int)

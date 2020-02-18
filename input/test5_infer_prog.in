@@ -1,0 +1,14 @@
+class Double
+class String
+class Foo
+class Bar
+class Hello
+
+class A extends Foo
+
+Double A::foo (String, String)
+String Foo::boo (String, Double)
+
+newvar a = A
+newvar b = Double
+newvar c = String

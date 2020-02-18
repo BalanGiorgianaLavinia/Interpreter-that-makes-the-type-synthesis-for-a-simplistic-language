@@ -1,0 +1,7 @@
+class C extends Global
+class A extends C
+class B extends A
+class D extends Human
+class Human
+class Student extends Human
+class NoParent

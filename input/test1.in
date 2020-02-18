@@ -1,0 +1,8 @@
+class Double
+class String
+
+newvar pp  = String
+newvar cb =    Double
+newvar test =   Int
+newvar a   =  Double
+newvar b  = String

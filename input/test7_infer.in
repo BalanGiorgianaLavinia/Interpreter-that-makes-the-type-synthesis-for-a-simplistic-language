@@ -1,0 +1,50 @@
+class Int
+class Double
+class String
+class Float
+class PP
+class PA
+class PC
+
+class A extends PA
+class B extends PP
+class C extends PC
+class AA extends A
+class BB extends B
+class AAA extends AA
+
+Double A::apply (Int, Int, Double,    String)
+Double A::apply (Int, Double)
+PC B::func (Int, PP)
+NotE C::func (Int, Double)
+PA C::func (Int, Int)
+AA AAA::boo (AA, AA)
+AA AA::boo (AA, AA)
+PC B::func (AA, BB)
+PA BB::func (AA, BB)
+PA BB::func (AA, BB, CC)
+PP AAA::anotherF (AA, Double, Float)
+
+newvar nr = Int
+newvar nrD = Double
+newvar str = String
+newvar f = Float
+
+newvar a = A
+newvar aa = AA
+newvar aaa = AAA
+newvar c = C
+newvar bb = BB
+newvar cc = CC
+newvar b = B
+
+infer expr60 = a.apply(nr, nr, nrD, str)
+infer expr61 = a.apply(nr, nrD)
+infer expr62 = aaa.apply(nr, nr, expr60, str)
+infer expr63 = bb.func (aa, aa)
+infer expr64 = bb.func(aa, aa, cc)
+infer expr65 = bb.func(aa, bb)
+infer expr66 = b.func(aa, bb)
+infer expr67 = b.func(nr, aaa.anotherF(aaa.boo(aa, aa), a.apply(nr, nr, nrD, str), f))
+infer expr68 = c.func(nr, a.apply(nr, nr  ,nrD, expr67))
+infer expr69 = aaa.boo(aaa.boo(aa, aa), aa.boo(    aa, aaa.boo(aa, aaa.boo(aa, aa)) ))

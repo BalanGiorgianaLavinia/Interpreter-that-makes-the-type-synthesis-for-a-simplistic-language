@@ -1,0 +1,11 @@
+class Double
+class     Int
+class String
+
+class A
+
+newvar a = A
+newvar b = String
+newvar c = Int
+
+Double A::foo(String, Int)

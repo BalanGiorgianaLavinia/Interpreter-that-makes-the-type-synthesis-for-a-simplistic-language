@@ -1,0 +1,7 @@
+class Double
+class     Int
+class String
+
+newvar a = Double
+newvar b = String
+newvar c = Int
